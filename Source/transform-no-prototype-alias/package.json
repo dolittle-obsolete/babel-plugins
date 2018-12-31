@@ -30,6 +30,8 @@
         "url": "https://github.com/dolittle/JavaScript.Fundamentals/issues"
     },
     "homepage": "https://github.com/dolittle/JavaScript.Fundamentals#readme",
-    "dependencies": {},
+    "dependencies": {
+        "doctrine": "^3.0.0"
+    },
     "devDependencies": {}
 }

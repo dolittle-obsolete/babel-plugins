@@ -1,0 +1,85 @@
+{
+    "type": "ExportNamedDeclaration",
+    "start": 86,
+    "end": 116,
+    "loc": {
+        "start": {
+            "line": 6,
+            "column": 0
+        },
+        "end": {
+            "line": 8,
+            "column": 1
+        }
+    },
+    "specifiers": [],
+    "source": null,
+    "declaration": {
+        "type": "ClassDeclaration",
+        "start": 93,
+        "end": 116,
+        "loc": {
+            "start": {
+                "line": 6,
+                "column": 7
+            },
+            "end": {
+                "line": 8,
+                "column": 1
+            }
+        },
+        "id": {
+            "type": "Identifier",
+            "start": 99,
+            "end": 108,
+            "loc": {
+                "start": {
+                    "line": 6,
+                    "column": 13
+                },
+                "end": {
+                    "line": 6,
+                    "column": 22
+                },
+                "identifierName": "something"
+            },
+            "name": "something"
+        },
+        "superClass": null,
+        "body": {
+            "type": "ClassBody",
+            "start": 109,
+            "end": 116,
+            "loc": {
+                "start": {
+                    "line": 6,
+                    "column": 23
+                },
+                "end": {
+                    "line": 8,
+                    "column": 1
+                }
+            },
+            "body": []
+        }
+    },
+    "leadingComments": [
+        {
+            "type": "CommentBlock",
+            "value": "*\n * Its a class of something\n ",
+            "start": 50,
+            "end": 85,
+            "loc": {
+                "start": {
+                    "line": 3,
+                    "column": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 3
+                }
+            }
+        }
+    ],
+    "exportKind": "value"
+}
