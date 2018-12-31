@@ -1,0 +1,35 @@
+{
+    "name": "@dolittle/babel-transform-no-prototype-alias",
+    "version": "1.0.0",
+    "description": "",
+    "publishConfig": {
+        "access": "public"
+    },
+    "main": "dist/commonjs/index.js",
+    "module": "dist/esmodule/index.js",
+    "jspm": {
+        "registry": "npm",
+        "jspmPackage": true,
+        "format": "esm",
+        "main": "index",
+        "directories": {
+            "dist": "dist/systemjs"
+        }
+    },
+    "scripts": {
+        "build": "gulp build --root ./Source/no-prototype-alias",
+        "prepublish": "yarn build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dolittle/JavaScript.Fundamentals.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dolittle/JavaScript.Fundamentals/issues"
+    },
+    "homepage": "https://github.com/dolittle/JavaScript.Fundamentals#readme",
+    "dependencies": {},
+    "devDependencies": {}
+}

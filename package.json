@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "workspaces": [
+        "Source/transform-no-prototype-alias",
+        "Source/testapp"
+    ],
+    "scripts": {
+        "build": "gulp build_all"
+    },
+    "devDependencies": {
+        "@dolittle/build": "^4.1.2"
+    }
+}

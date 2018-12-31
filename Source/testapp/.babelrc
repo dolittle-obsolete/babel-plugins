@@ -1,0 +1,7 @@
+{
+    "extends": "../../node_modules/@dolittle/build/.babelrc",
+    "plugins": [
+        "@dolittle/babel-transform-no-prototype-alias"
+    ]
+
+}
