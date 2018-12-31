@@ -6,10 +6,10 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "build": "gulp build --root ./Source/testapp"
-},
-
+    "build": "gulp build --root ./Source/testapp",
+    "transpile": "rm -rf dist && PACKAGE_DISTRIBUTION=true npx babel . --ignore node_modules,**/for_* -d dist"
+  },
   "devDependencies": {
-    "@dolittle/babel-transform-no-prototype-alias": "^1.0.0"
+    "@dolittle/babel-plugin-transform-no-prototype-alias": "^1.0.0"
   }
 }

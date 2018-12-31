@@ -1,4 +1,1 @@
-
-export class myClass {
-        
-}
+foo === bar;

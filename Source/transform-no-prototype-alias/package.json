@@ -1,5 +1,5 @@
 {
-    "name": "@dolittle/babel-transform-no-prototype-alias",
+    "name": "@dolittle/babel-plugin-transform-no-prototype-alias",
     "version": "1.0.0",
     "description": "",
     "publishConfig": {
@@ -17,7 +17,7 @@
         }
     },
     "scripts": {
-        "build": "gulp build --root ./Source/no-prototype-alias",
+        "build": "gulp build --root ./Source/transform-no-prototype-alias",
         "prepublish": "yarn build"
     },
     "repository": {
