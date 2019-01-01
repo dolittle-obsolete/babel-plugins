@@ -33,5 +33,9 @@
     "dependencies": {
         "doctrine": "^3.0.0"
     },
-    "devDependencies": {}
+    "devDependencies": {},
+    "files": [
+        "dist"
+    ]
+
 }
